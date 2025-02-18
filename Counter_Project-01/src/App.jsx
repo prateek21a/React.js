@@ -12,14 +12,16 @@ function App() {
       setCounter(counter + 1)
     }
 else (
-  "Not going beyond 20"
+  alert("Not going beyond 20")
 )
   }
+
+  
   const removeValue = () => {
     if( counter > 0 ){
       setCounter(counter-1);
     } else {
-      "not going below 0 "
+     alert( "not going below 0 " )
     }
   
   }
