@@ -7,7 +7,10 @@ function App() {
   return (
     <>
 <h1 className='mb-4 bg-yellow-500 text-red text-center text-2xl p-4'>Chai Or React</h1>
-      <Card username="JohnDoe" />
+      <Card username="Prateek Jaiswal" />
+      <br/>
+      <Card username="Shivam Jaiswal" />
+
 
     </>
   )

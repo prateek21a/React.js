@@ -22,6 +22,8 @@ function Card({ username })  {
       </p>
       <p className="text-white mt-4">Username: {username}</p>
     </div>
+    
+    
   );
 }
 
