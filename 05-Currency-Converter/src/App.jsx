@@ -29,7 +29,7 @@ function App() {
     <div
         className="w-full h-screen flex flex-wrap justify-center items-center bg-cover bg-no-repeat"
         style={{
-            backgroundImage: `url('https://images.pexels.com/photos/3532540/pexels-photo-3532540.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2')`,
+            backgroundImage: `url('https://images.pexels.com/photos/164527/pexels-photo-164527.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1')`,
         }}
     >
         <div className="w-full">
@@ -58,7 +58,7 @@ function App() {
                             className="absolute left-1/2 -translate-x-1/2 -translate-y-1/2 border-2 border-white rounded-md bg-blue-600 text-white px-2 py-0.5"
                             onClick={swap}
                         >
-                            swap
+                            SWAP
                         </button>
                     </div>
                     <div className="w-full mt-1 mb-4">
@@ -71,7 +71,7 @@ function App() {
                             amountDisable
                         />
                     </div>
-                    <button type="submit" className="w-full bg-blue-600 text-white px-4 py-3 rounded-lg">
+                    <button type="submit" className="w-full bg-red-600 text-white px-4 py-3 rounded-lg">
                         Convert {from.toUpperCase()} to {to.toUpperCase()}
                     </button>
                 </form>
